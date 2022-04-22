@@ -1,0 +1,14 @@
+{
+  "name": "invescode",
+  "version": "1.0.0",
+  "description": "Package for invescode",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hemant Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.7.3"
+  }
+}
