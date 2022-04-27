@@ -1,5 +1,5 @@
 const createUserQuery = () => {
-    let query = "INSERT INTO users $1, $2, $3, $4, $5, $6, $7 RETURNING *";
+    let query = "INSERT INTO users(username, firstname, lastname, email, mobile, hashedpassword) VALUES($1, $2, $3, $4, $5, $6) RETURNING *";
     return query;
 }
 

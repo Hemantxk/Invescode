@@ -5,7 +5,7 @@ const dbClient = new Client({
     user: 'postgres',
     host: 'winhost',
     database: 'InvesCode',
-    password: '*****',
+    password: 'Hemant*',
     port: 5432
 });
 dbClient.connect((err) => {
